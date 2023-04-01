@@ -1,0 +1,21 @@
+<p class="test">Hello! index.liquid file is working</p>
+
+<style>
+    .test {
+    color: {{ section.settings.color }}
+    }    
+</style>
+
+{% schema %}
+    {
+        "name": "Home Page",
+        "settings": [
+            {
+                "type": "color",
+                "id": "color",
+                "label": "Color",
+                "default": "#19ACAC"
+            }
+        ]
+    }
+{% endschema %}

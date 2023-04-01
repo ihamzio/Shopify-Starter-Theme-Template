@@ -1,0 +1,31 @@
+[
+    {
+        "name": "theme_info",
+        "theme_name": "ihamzio-customized",
+        "theme_author": "ihamzio",
+        "theme_version": "1.0.0",
+        "theme_support_url": "https://ihamzio.com",
+        "theme_documentation_url": "https://ihamzio.com"
+    },
+    {
+        "name": "Color Scheme",
+        "settings": [
+            {
+                "type": "color",
+                "id": "color_global",
+                "label": "t:settings_schema.color_global.settings.color.label"
+            }
+        ]
+    },
+    {
+        "name": "Font Picker",
+        "settings": [
+            {
+                "type": "font_picker",
+                "id": "font_global",
+                "default": "serif",
+                "label": "Select the Label"
+            }
+        ]
+    }
+]

@@ -1,0 +1,11 @@
+{
+    "settings_schema": {
+        "color_global": {
+            "settings": {
+                "color": {
+                    "label": "This is the e.default.schema file"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="{{ 'base.js' | asset_url }}" defer="defer"></script>
+    {{ 'base.css' | asset_url | stylesheet_tag }}
+{{ content_for_header }}
+</head>
+<body>
+    {% section 'article' %}
+    {{ content_for_layout }}
+</body>
+</html>
