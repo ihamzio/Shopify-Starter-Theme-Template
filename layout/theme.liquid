@@ -6,7 +6,9 @@
 {{ content_for_header }}
 </head>
 <body>
+    {% sections 'header-group' %}
     {% section 'article' %}
     {{ content_for_layout }}
+    {% sections 'footer-group' %}
 </body>
 </html>
